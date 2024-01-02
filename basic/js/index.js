@@ -1,7 +1,7 @@
 // javascript all outputs Function
 
-alert("Hello World");
-document.write("Hello World");
+alert("Raect is Ready");
+document.write("Thanks for using JavaScript");
 console.log("Only Console result Shows");
 
 

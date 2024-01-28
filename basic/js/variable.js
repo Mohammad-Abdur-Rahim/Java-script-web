@@ -1,10 +1,14 @@
-var name = "Md Abdur Rahim";
-var age = 22;
-var todayrainday = false;
+var num1= parseInt (80.122222);
+var num2= parseInt (20.5);
+var sum= num1+num2;
+console.log(sum);
+//use the parseInt function
 
-console.log("My Name Is :",name);
-console.log(typeof name);
-console.log("My Age Is :",age);
-console.log(typeof age);
-console.log("Today Is rainday :", todayrainday);
-console.log(typeof todayrainday);
+
+var num3=10.122222;
+var num4=20.5;
+var sum2= num3+num4;
+console.log(sum2.toFixed(2));   
+//  use to fixes function
+
+

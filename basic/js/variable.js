@@ -1,23 +1,10 @@
-var num1= 99;
-var num2=299;
- console.log(num1 ,num2); 
- // 1st time is running
-num1=199;
-num2=499;
-console.log(num1 ,num2);
- // 2st time is running
+var math=75.25;
+var biology=65;
+var chemestry=80;
+var physics=35.45;
+var bangla=99.50;
 
-var sum= num1+num2;
-var sub= num1-num2;
-var mult= num1*num2;
-var div= num1/num2;
-var mod= num1%num2;
+var totalMarkAveraged= (math + biology + chemestry +physics + bangla)/5;
 
+console.log(totalMarkAveraged.toFixed(2));
 
-
-
-console.log("two NUmbers sum is " + sum);
-console.log("two NUmbers sub is " + sub);
-console.log("two NUmbers mult is " + mult);
-console.log("two NUmbers div is " + div);
-console.log("two NUmbers mod is " + mod);

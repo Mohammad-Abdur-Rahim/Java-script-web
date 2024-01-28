@@ -1,14 +1,23 @@
-var num1= parseInt (80.122222);
-var num2= parseInt (20.5);
+var num1= 99;
+var num2=299;
+ console.log(num1 ,num2); 
+ // 1st time is running
+num1=199;
+num2=499;
+console.log(num1 ,num2);
+ // 2st time is running
+
 var sum= num1+num2;
-console.log(sum);
-//use the parseInt function
+var sub= num1-num2;
+var mult= num1*num2;
+var div= num1/num2;
+var mod= num1%num2;
 
 
-var num3=10.122222;
-var num4=20.5;
-var sum2= num3+num4;
-console.log(sum2.toFixed(2));   
-//  use to fixes function
 
 
+console.log("two NUmbers sum is " + sum);
+console.log("two NUmbers sub is " + sub);
+console.log("two NUmbers mult is " + mult);
+console.log("two NUmbers div is " + div);
+console.log("two NUmbers mod is " + mod);

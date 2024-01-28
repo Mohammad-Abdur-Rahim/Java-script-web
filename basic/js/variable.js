@@ -1,7 +1,10 @@
-var weight = 58;
-var money = 30;
-var salary = 30000;
+var name = "Md Abdur Rahim";
+var age = 22;
+var todayrainday = false;
 
-var intern =10000;
-console.log("My 2024 intern is :",intern, "Taka Alhamdulilah");
-console.log("My 2024 Salary is :",salary, "Taka Alhamdulilah");
+console.log("My Name Is :",name);
+console.log(typeof name);
+console.log("My Age Is :",age);
+console.log(typeof age);
+console.log("Today Is rainday :", todayrainday);
+console.log(typeof todayrainday);

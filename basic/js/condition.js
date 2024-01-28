@@ -1,18 +1,17 @@
-var salary = 33000;
-var off2day = true;
-
-if(salary > 25000 || off2day==true)   {
-console.log("Plan A I work Bangladesh with your It Company");   
+//Discount code implement in js 
+const TShirt_price =5000;
+if(TShirt_price>=2000 && TShirt_price<=3000){
+//10% discount code
+const discount  =TShirt_price*10/100;
+const payamount =TShirt_price-discount;
+console.log("You Receive 10% Discount :"+payamount);
 }
+else if(TShirt_price>=3000 && TShirt_price<=5000){
+    //20% discount code
+    const discount  =TShirt_price*20/100;
+    const payamount =TShirt_price-discount;
+    console.log("You Receive 20% Discount :"+payamount);
+    }
 else{
-    console.log("Plan B go to Germany for masters");
-}
-var Project_Price = 18000;
-var project_Work_10_Days = true;
-
-if(Project_Price > 15000 && project_Work_10_Days==false)   {
-console.log(" I work with your project");   
-}
-else{
-    console.log("Not interested work on your project Price is low");
+    console.log("You Have no Discount");
 }

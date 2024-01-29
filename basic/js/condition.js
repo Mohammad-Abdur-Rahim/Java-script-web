@@ -1,10 +1,20 @@
 //  Array code here
-const number_list = [1,2,3,4,5,6,7,8,9,10,11];
-const friend_list = ['abdu','babul','kalam','rasel'];
-const friend2 = friend_list[1]
+const number_list = [1,2,3,4,5];
+console.log(number_list);
+//array push fn
+number_list.push(6,7,8);
+number_list.push(9,10);
+console.log(number_list);
+//array pop fn
+number_list.pop();
+console.log(number_list);
 
-console.log(friend_list);
-console.log(friend_list[2]);
-console.log(friend2);
+//  Array Shift and unshift
+const number = [11,12,13,14];
+console.log(number);
+number.shift(); //pop first
+console.log(number);
+number.unshift(10); //push first
+console.log(number);
 
 

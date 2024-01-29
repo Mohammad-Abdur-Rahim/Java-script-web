@@ -1,6 +1,4 @@
-//  Simple Ternarie operator Here
-var age=12;
-age>=18? console.log("Vote dio"):console.log("Vote not Allow");
-//  Simple Ternarie operator Here
-var age=22;
-age>=18? console.log("Vote dio"):console.log("Vote not Allow");
+//  Array code here
+const number_list = [1,2,3,4,5,6,7,8,9,10,11];
+const Friend_list = ['abdu','babul','kalam','rasel'];
+

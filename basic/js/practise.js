@@ -1,12 +1,13 @@
-//Even And Odd numbers 
-let num =1;
-while(num<10){
-    console.log(num);
-    // num=num+2;
-    if(num %2 === 0){
-        console.log("Even numbers :",num);
-    }else{
-        console.log("odd numbers :",num);
-    }
-    num++;
+//For Loop Implements here
+// let num = 10 ;
+// for(num;num<20;num++){
+//     console.log(num);
+// }
+//even numbers 
+for(let i=0;i<=20;i+=2){
+    console.log(i);
+}
+//odd  numbers 
+for(let i=1;i<=20;i+=2){
+    console.log(i);
 }

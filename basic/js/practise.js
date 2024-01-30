@@ -1,11 +1,9 @@
-//Advance Loop use
-let total=0;
+//Break and Continue use
+
 
 for(let i=1;i<=20;i++){
-    if(i%3===0){
-        console.log(i);
-        total=total+i;
+    if(i>=5){
+      break;
     }
-  
+  console.log(i);
 }
-console.log(total);

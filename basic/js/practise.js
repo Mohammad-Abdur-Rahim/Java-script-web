@@ -1,13 +1,10 @@
-//For Loop Implements here
-// let num = 10 ;
-// for(num;num<20;num++){
-//     console.log(num);
-// }
-//even numbers 
-for(let i=0;i<=20;i+=2){
+//Dicremental for loop and while loop[]
+for(let i=10;i>=0;i--){
     console.log(i);
 }
-//odd  numbers 
-for(let i=1;i<=20;i+=2){
-    console.log(i);
+
+let num=20;
+while(num>=10){
+    console.log(num);
+    num--;
 }

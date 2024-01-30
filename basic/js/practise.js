@@ -1,7 +1,7 @@
-const numbers=[1,2,3,4,5];
-
-console.log(numbers)
-;
-for(const num of numbers){
-    console.log(num); 
+let num=0;
+while(num<5){
+    console.log("loop");
+    // num=num+1;
+    num++;
+   
 }

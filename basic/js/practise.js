@@ -1,10 +1,11 @@
-//Dicremental for loop and while loop[]
-for(let i=10;i>=0;i--){
-    console.log(i);
-}
+//Advance Loop use
+let total=0;
 
-let num=20;
-while(num>=10){
-    console.log(num);
-    num--;
+for(let i=1;i<=20;i++){
+    if(i%3===0){
+        console.log(i);
+        total=total+i;
+    }
+  
 }
+console.log(total);

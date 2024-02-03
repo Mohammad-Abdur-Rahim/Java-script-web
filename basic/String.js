@@ -1,6 +1,8 @@
-const country = 'Bangladesh';
-const division = "Dhaka";
-const distric = `uttara` ;
-
-const thana =new String(`demra`);
-console.log(typeof thana);
+const subject='Math';
+const book = 'math'
+//Use tolower and toUpper 
+if(subject.toLowerCase() === book.toLowerCase()){
+    console.log('good mark');
+}else{
+    console.log('Fail mark');
+}

@@ -5,7 +5,6 @@ profession:'Developer',
 Salary:33000,
 married:false,
 }
-person.name = 'Full-Stack Developer Rahim';    //. Dot notaion access and value set 
-person['age']=23;               // [] Bracket notaion access and value set 
-console.log(person.name);
-console.log(person['age']);
+// object key means all propertise name in object
+ const keys=Object.keys(person);
+ console.log(keys);

@@ -1,13 +1,6 @@
-const person ={
-name: 'Md Abdur Rahim',
-age:22,
-profession:'Developer',
-Salary:33000,
-married:false,
-//nested Object here  declare
- person1 :{
-    name:'Fatema Akter',
-    age: 18,
-}
-}
-console.log(person.person1);
+//Object Declaration here
+const person1 =new Object();
+console.log(person1);
+const person2 =Object.create({});
+console.log(person2);
+

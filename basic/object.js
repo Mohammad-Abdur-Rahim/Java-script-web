@@ -4,9 +4,10 @@ age:22,
 profession:'Developer',
 Salary:33000,
 married:false,
+//nested Object here  declare
+ person1 :{
+    name:'Fatema Akter',
+    age: 18,
 }
-// object key & Values means all propertise name & value in object
- const keys=Object.keys(person);
- const values=Object.values(person);
- console.log(keys);
- console.log(values);
+}
+console.log(person.person1);

@@ -1,6 +1,10 @@
-//Object Declaration here
-const person1 =new Object();
-console.log(person1);
-const person2 =Object.create({});
-console.log(person2);
+const person={
+name:'Md',
+age:22,
+}
+//For in Loop Use Object just
+for(const prop in person) {
+    console.log(prop);
+    console.log(person[prop]);
+}
 

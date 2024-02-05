@@ -1,6 +1,6 @@
 // sort ing array way
 
-const names=['md','akiv','ttt','ggdf','bvvv','hgjsvjfvs'];
-const namesort = names.sort();
+const numbers=[99,33,44,55,1,2,3,44];
+const numsort = numbers.sort();
 
-console.log(namesort);
+console.log(numsort);

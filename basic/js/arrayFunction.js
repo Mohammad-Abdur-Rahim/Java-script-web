@@ -1,23 +1,36 @@
-//Array function Build here sum of array elements
-
-// const number =[1,2,3,4,5,6,7,8,9];
-// let sum=0;
-// for(let i=0;i<=number.length;i++){
-//     sum=sum+i;
-//     console.log(number[i]);
-   
-// }
-// console.log(sum);
+//Array function Build here evennumber array elements find here
 
 
-function arrayadd(number){
-    let sum=0;
-    for(let i=0;i<=number.length;i++){
-        sum=sum+i;
+
+//Even number
+function arrayEven(number){
+const even =[]; //declare first
+for(const num of number){ //2nd step here
+    if(num%2===0){
+        console.log(num);
+        even.push(num);
     }
-    return sum;
 }
- const number =[1,2,3,4,5,6,7,8,9];
+return even;
+}
+ const number =[1,2,3,4,5,6,7,8,9]; //3rd step here
 //  arrayadd(number);
+const evens =arrayEven(number);
+console.log("Array elements evennumber  is :"+evens);
 
-console.log("Array elements sum is :"+arrayadd(number));
+
+//Odd number
+function arrayodd(number){
+const odd =[]; //declare first
+for(const num of number){ //2nd step here
+    if(num%2===1){
+        console.log(num);
+        odd.push(num);
+    }
+}
+return odd;
+}
+ const number1 =[1,2,3,4,5,6,7,8,9]; //3rd step here
+//  arrayadd(number);
+const odd =arrayodd(number);
+console.log("Array elements evennumber  is :"+odd);

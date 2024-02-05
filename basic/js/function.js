@@ -1,8 +1,20 @@
-//function implements here 
-const number =55;
-function add (){
-console.log("Plesae add sum nubers here ");
-console.log("Tnx FUnction create sum ");
+//Function add and Squaree here 
+
+function Squaree(number){
+    console.log(number);
+    const squrnumber = number*number;
+    console.log("Squaree is :"+squrnumber);
+}
+
+Squaree(5);
+Squaree(25);
+
+
+
+function add(num1,num2){
+const sum=num1+num2;
+console.log("sum is :"+sum);
 
 }
-console.log(add());
+add(4,6);
+add(2,44);

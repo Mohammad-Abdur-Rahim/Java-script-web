@@ -1,20 +1,12 @@
 //Function return usecase here implements 
 
 
-function add(number){
-    const addnumber =number+number;
-    return addnumber;
+function evenNumber(number){
+    if(number%2===0){
+        return true
+    }
+    return false;
 }
-function multi(number){
-    const multinumber =number*number;
-    return multinumber;
-}
-/*
-add(5);
-multi(10);
-return value dakajabe nah tai function ka varaiable a nia print korsee
-*/
-const output =add(5);
-const output2 =multi(10);
-console.log(output);
-console.log(output2);
+
+console.log(evenNumber(10));  //true
+console.log(evenNumber(19));  //false

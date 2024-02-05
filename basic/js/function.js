@@ -1,20 +1,11 @@
-//Function add and Squaree here 
-
-function Squaree(number){
-    console.log(number);
-    const squrnumber = number*number;
-    console.log("Squaree is :"+squrnumber);
+//Function parameter and arguments implements
+//parametre use case
+function doubble (number){
+    const double2x= number * 2;
+    console.log("number is:"+number,"number  double is:"+ double2x);
 }
-
-Squaree(5);
-Squaree(25);
-
-
-
-function add(num1,num2){
-const sum=num1+num2;
-console.log("sum is :"+sum);
-
-}
-add(4,6);
-add(2,44);
+const num1=10;
+const num2=90;
+//Arguments usecase
+doubble(num1);
+doubble(num2);

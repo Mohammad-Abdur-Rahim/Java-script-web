@@ -15,7 +15,9 @@ function arrayadd(number){
     for(let i=0;i<=number.length;i++){
         sum=sum+i;
     }
-    console.log(sum);
+    return sum;
 }
  const number =[1,2,3,4,5,6,7,8,9];
-arrayadd(number);
+//  arrayadd(number);
+
+console.log("Array elements sum is :"+arrayadd(number));

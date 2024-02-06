@@ -11,3 +11,10 @@ console.log(mdheight);
 
 //Miels to kilometer conversion
 
+function mileToKilo(miels){
+    const kilometer= miels*(1.60934);
+    return kilometer;
+}
+
+const resultis=mileToKilo(75);
+console.log("75 Miels to kilometer is :"+resultis);

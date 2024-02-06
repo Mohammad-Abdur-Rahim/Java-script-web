@@ -15,5 +15,5 @@ function discounPrice(quantity){
         return total;
     }
 }
-const total=discounPrice(10);
+const total=discounPrice(190);
 console.log(total);

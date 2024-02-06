@@ -18,3 +18,11 @@ function mileToKilo(miels){
 
 const resultis=mileToKilo(75);
 console.log("75 Miels to kilometer is :"+resultis);
+
+//kilometer to miels converstion
+function kiloToMiels(kilo){
+    const miels=kilo *(0.62137119);
+    return miels;
+}
+const mresult=kiloToMiels(75);
+console.log("75 t kilo to miels is: "+mresult)

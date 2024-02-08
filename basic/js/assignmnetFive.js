@@ -8,13 +8,8 @@ for(let i=0;i<allPayments.length;i++){
             const tax_Amount = allPayments[i] * tax_Rate;
             const totalSave=sumPayment-tax_Amount;
             return  totalSave;
-        }
-      
-    
+        } 
 }
-return totalSave;
-
-  
 }
 
 

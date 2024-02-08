@@ -7,7 +7,8 @@ for(let i=0;i<allPayments.length;i++){
             const tax_Rate = 0.20; // 20%
             const tax_Amount = allPayments[i] * tax_Rate;
             const totalSave=sumPayment-tax_Amount;
-            return  totalSave;
+            const finalSave=totalSave-livingCost;
+            return  finalSave;
         } 
 }
 }
@@ -15,7 +16,7 @@ for(let i=0;i<allPayments.length;i++){
 
 
 const allPayments=[100,200,300,4000];
-const livingCost=12000;
+const livingCost=800;
 const result=monthlySavings(allPayments,livingCost);
 console.log(result);
 

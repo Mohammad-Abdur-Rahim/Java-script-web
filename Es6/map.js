@@ -1,8 +1,5 @@
-//forEach fn use case in js 
-const numbers=[10,20,30,40,50,99];
-// const result =numbers.forEach(num=>console.log(num));
-const result =numbers.forEach(num=>num*2);
+//Filter select some element your condition base
+const numbers=[10,20,30,40,50,99,111,222,333];
+const result = numbers.filter(num=>num>50);
 console.log(result);
-
-
-//output is undefined because for each not return any value map return value
+//Filter only return condition fill-up value

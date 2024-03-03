@@ -1,8 +1,6 @@
-const numbers = [1,2,3,4,5];
-
-const doubled =[];
-for(const num of numbers) {
-    const double = num *2;
-    doubled.push(double);
-}
-console.log(doubled);
+//map fn use case in js 
+const numbers=[10,20,30,40,50,99];
+const result =numbers.map(num=>num*2);
+console.log(result);
+const resul1 =numbers.map(num=>num+99);
+console.log(resul1);

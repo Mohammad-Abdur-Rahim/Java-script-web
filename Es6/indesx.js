@@ -1,6 +1,5 @@
-function add(num1,num2=0){ //default value set function
-    const result = num1 + num2;
-    console.log(num1 ,num2,result);
-    return result;
-}
-const sum = add(10);
+const num1 =10;
+const num2 =900;
+const result =num1 + num2;
+
+console.log(`the num1 ${num1} and num2 ${num2} sum is : ${result}`);

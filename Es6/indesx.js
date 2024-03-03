@@ -3,12 +3,9 @@ const student ={
     age:23,
     salary:35000,
 }
-const name = student.name;
-const age = student.age;
-const salary = student.salary;
+// Destructure simple object
+const {name ,salary:newSalary}=student
 console.log(name);
-console.log(age);
-console.log(salary);
-console.log(salary);
-console.log(salary);
-console.log(salary);
+console.log(newSalary);
+console.log(newSalary);
+

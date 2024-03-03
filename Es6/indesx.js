@@ -6,3 +6,6 @@ const phone={
 }
 console.log(Object.keys(phone));  //Object Keys find
 console.log(Object.values(phone));  //Object values find
+console.log(Object.entries(phone));  //Object entries find
+delete phone.isClean;
+console.log(Object.entries(phone));

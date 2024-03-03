@@ -1,3 +1,14 @@
-const num =[1,2,3,4,5,6,7,8,89,99,90];
-const maxNumber =Math.max(...num);  // ... dot spread operator use case
-console.log(maxNumber);
+const student ={
+    name:"Md Abdur Rahim",
+    age:23,
+    salary:35000,
+}
+const name = student.name;
+const age = student.age;
+const salary = student.salary;
+console.log(name);
+console.log(age);
+console.log(salary);
+console.log(salary);
+console.log(salary);
+console.log(salary);

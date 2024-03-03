@@ -5,3 +5,4 @@ const phone={
     isClean:true,
 }
 console.log(Object.keys(phone));  //Object Keys find
+console.log(Object.values(phone));  //Object values find

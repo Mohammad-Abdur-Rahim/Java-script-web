@@ -1,7 +1,7 @@
 // Find The Max Number In An Array
 
 
-// Find Array maximum Numbers 
+// Find Array maximum Numbersss
 function getmax(number){
     let max=number[0];
 for(const num of number){

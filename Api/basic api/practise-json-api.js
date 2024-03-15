@@ -6,4 +6,7 @@ const student={
 const objToJson =JSON.stringify(student);
 console.log(objToJson);
 
+const jsonToObj = JSON.parse(objToJson);
+console.log(jsonToObj);
+
 
